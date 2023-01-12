@@ -1,3 +1,8 @@
+/* Import sheets */
+@import url(./colors.css);
+@import url(./fonts.css);
+@import url(./style.css);
+
 /* Variáveis style */
 :root {
     --orange: #f84b2f;
@@ -10,4 +15,6 @@
     --purple: rgb(144, 139, 191);
 
     --ff-sans-serif: sans-serif;
+    --ff-primary: "Roboto", sans-serif;
+    --ff-secondary: "Raleway", sans-serif;
 }

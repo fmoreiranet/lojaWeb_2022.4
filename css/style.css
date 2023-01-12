@@ -1,6 +1,7 @@
 body {
     font-size: 14px;
-    font-family: sans-serif;
+    font-family: var(--ff-primary);
+    font-weight: 300;
     color: var(--black);
     /* RGB: 00-> red, 00-> Green, 00->Blue. Simplificar: 0->R, 0->G, 0->B */
     /* #222222 = #222 */
@@ -206,12 +207,17 @@ nav .area-usuario a {
     font-weight: bold;
 }
 
-
+.product-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+}
 
 
 @media (max-width:460px) {
     /* .icon-cart {
-        display: none;
+        display: none;   
     } */
 
     #publicidade-desktop1 {
