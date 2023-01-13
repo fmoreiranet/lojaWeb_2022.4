@@ -1,3 +1,6 @@
+/* Importação de arquivos */
+@import url(./colors.css);
+
 /* Variáveis style */
 :root {
     --orange: #f84b2f;
@@ -9,5 +12,24 @@
     --yellow: #ef0;
     --purple: rgb(144, 139, 191);
 
-    --ff-sans-serif: sans-serif;
+    --ff-primary: 'Roboto', sans-serif;
+    --ff-secondary: 'Raleway', sans-serif;
+
+    /* -4pt */
+    --fs-default: 14px;
+    /*10px*/
+    --fs-0: 0.714em;
+    /*14px*/
+    --fs-1: 1em;
+    /*18px*/
+    --fs-2: 1.285em;
+    /*22px*/
+    --fs-3: 1.571em;
+    /*26px*/
+    --fs-4: 1.857em;
+    /*30px*/
+    --fs-5: 1.285em;
 }
+
+/* RGB: 00-> red, 00-> Green, 00->Blue. Simplificar: 0->R, 0->G, 0->B */
+/* #222222 = #222 */
