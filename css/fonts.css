@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;900&family=Roboto:wght@300;400;700&display=swap');
+
+body {
+    font-family: var(--ff-primary);
+    font-size: var(--fs-default);
+    color: var(--black);
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--ff-secondary);
+    font-weight: 900;
+    font-size: var(--fs-4)
+}
+
+a {
+    text-emphasis: none;
+    color: var(--black);
+}
+
+p {
+    font-size: var(--ff-2);
+}
+
+.ff-primary {
+    font-family: var(--ff-primary);
+}
+
+.ff-secondary {
+    font-family: var(--ff-secondary);
+}
