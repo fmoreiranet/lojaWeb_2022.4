@@ -1,12 +1,3 @@
-body {
-    font-size: 14px;
-    font-family: var(--ff-primary);
-    font-weight: 300;
-    color: var(--black);
-    /* RGB: 00-> red, 00-> Green, 00->Blue. Simplificar: 0->R, 0->G, 0->B */
-    /* #222222 = #222 */
-}
-
 .img-invert {
     -webkit-filter: invert();
     filter: invert();
@@ -209,9 +200,8 @@ nav .area-usuario a {
 
 .product-list{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
-    padding: 10px;
 }
 
 

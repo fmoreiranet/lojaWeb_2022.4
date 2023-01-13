@@ -1,1 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+body {
+   font-size: var(--fs-default);
+   font-family: var(--ff-primary);
+   color: var(--black);
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--ff-secondary);
+  font-weight: 900; 
+  font-size: var(--fs-xm);
+}
+
+a {
+   text-emphasis: none;
+   color: var(--black);
+}
+
+p {
+   font-size: 1em;
+}
+
+.ff-primary {
+   font-family: var(--ff-primary);
+}
+
+.ff-secondary {
+   font-family: var(--ff-secondary);
+}

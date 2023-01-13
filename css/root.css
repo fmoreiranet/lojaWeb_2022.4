@@ -14,7 +14,14 @@
     --yellow: #ef0;
     --purple: rgb(144, 139, 191);
 
-    --ff-sans-serif: sans-serif;
     --ff-primary: "Roboto", sans-serif;
     --ff-secondary: "Raleway", sans-serif;
+    
+    --fs-default: 14px;
+    --fs-xs: 0.71em;
+    --fs-s: 1em;
+    --fs-xm: 1.285em;
+    --fs-mm: 1.571em;
+    --fs-ll:1.857em
+    --fs-xl: 2.571em;
 }
