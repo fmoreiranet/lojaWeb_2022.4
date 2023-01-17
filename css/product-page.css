@@ -1,0 +1,46 @@
+*{
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+   margin: 0;
+}
+#product-breadcrumbs{
+   margin: 20px 0px;
+}
+
+#product-briefing{
+   width: 1200px;
+   height: 677px;
+}
+
+#product-aspects{
+   width: 450px;
+}
+
+#product-pics{
+   padding: 15px;
+   width: 480px;
+}
+
+#product-main-pic{
+   background-image: url(https://picsum.photos/id/237/450/450);
+   background-size: contain;
+   background-repeat: no-repeat;
+   padding: 450px 0px 0px;
+}
+
+#product-other-pics-items{
+   background-image: url(https://picsum.photos/id/237/82/82);
+   background-size: contain;
+   background-repeat: no-repeat;
+   margin-top: 5px;
+   padding: 45px;
+}
+
+#product-other-pics-items:hover{
+   border: 1px solid orange;
+}
+
+#product-share{
+
+}
