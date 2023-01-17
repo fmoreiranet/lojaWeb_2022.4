@@ -29,18 +29,19 @@
    padding: 450px 0px 0px;
 }
 
+#product-other-pics{
+   width: 480px;
+}
+
 #product-other-pics-items{
    background-image: url(https://picsum.photos/id/237/82/82);
    background-size: contain;
    background-repeat: no-repeat;
-   margin-top: 5px;
+   margin-top: 4px;
    padding: 45px;
 }
 
 #product-other-pics-items:hover{
-   border: 1px solid orange;
+   border: 2px solid #ec2216;
 }
 
-#product-share{
-
-}
