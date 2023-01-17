@@ -12,7 +12,6 @@ body {
     /* #222222 = #222 */
 }
 
-
 .img-invert {
     -webkit-filter: invert();
     filter: invert();
@@ -29,7 +28,7 @@ nav .rede-social {
     /* display: flex; */
 }
 
-nav .area-usuario a {
+nav .area-usuario  a{
     text-decoration: none;
     color: #eee;
 }
