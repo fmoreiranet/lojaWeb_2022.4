@@ -206,6 +206,60 @@ nav .area-usuario a {
 
 }
 
+footer {
+    padding-top: 40px;
+}
+
+footer h3 {
+    font-size: var(--fs-1);
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* footer .footer-content>div {
+    float: left;
+    width: 20%;
+    min-width: 340px;
+}
+
+footer .footer-content::after {
+    content: "";
+    clear: both;
+    display: table;
+} */
+
+footer ul {
+    padding: 0;
+}
+
+footer ul li {
+    position: relative;
+    /* list-style: var(--icon-cloud); */
+    list-style: none;
+    padding: 5px 0;
+    line-height: 20px;
+    font-size: 40px;
+}
+
+footer ul li a {
+    font-size: 14px
+}
+
+footer ul li a {
+    text-decoration: none;
+}
+
+.footer-locate {
+    border-top: solid 2px var(--gray-dark);
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 
 @media (max-width:460px) {
     /* .icon-cart {
