@@ -1,0 +1,30 @@
+/* header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+h1 {
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    color: var(--orange);
+    content: ">";
+}
+
+.breadcrumb-item.active {
+    color: var(--orange);
+}
+
+.form-floating>.form-control-plaintext~label,
+.form-floating>.form-control:focus~label,
+.form-floating>.form-control:not(:placeholder-shown)~label,
+.form-floating>.form-select~label {
+    opacity: 1;
+    transform: scale(.85) translateY(-1.7rem) translateX(.15rem);
+}
