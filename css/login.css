@@ -5,3 +5,61 @@
    box-sizing: border-box;
    font-size: 14px;
 }
+
+body{
+   font-family: 'Roboto', sans-serif;
+}
+
+header{
+   height: 84px;
+   position: relative;
+}
+
+header span{
+   font-weight: 500;
+   position: absolute;
+   top: 32px;
+   left: 140px;
+}
+
+main{
+   margin: 0 auto;
+   min-height: 600px;
+
+}
+
+logo{
+   height: 42px;
+   margin-top: -10px;
+   margin-right: -18px;
+}
+
+#login-main{
+   padding: 75px;
+}
+
+#logo-form{
+  width: 450px;
+}
+
+#logo-form img{
+   width: 225px;
+}
+
+#form-data{
+   background-color: white;
+   width: 450px;
+   height: 250px;
+}
+
+#input-email{
+   width: 225px;
+   padding: 8px;
+   margin-bottom: 16px;
+}
+
+#input-password{
+   width: 225px;
+   padding: 8px;
+   margin-bottom: 16px;
+}
