@@ -137,6 +137,57 @@
    margin: 20px 15px;
    padding: 5px;
 }
+
+#seller-data{
+   border-right: 2px solid #cdcbcb;
+   height: 99%;
+   margin: auto 0;
+   padding-right: 5%;
+}
+
+#seller-aspects{
+   max-width: 1250px;
+   height: 130px;
+   padding: 25px;
+}
+
+#seller-pic{
+   border: 1px solid;
+   border-radius: 50%;
+   width: 78px;
+   height: 78px;
+   margin: 25px;
+}
+
+#seller-pic img{
+   width: 78px;
+   height: 78px;
+}
+
+#seller-name{
+   margin-top: 10px;
+}
+
+#seller-buttons{
+   margin-top: 10px;
+}
+
+#seller-buttons button{
+   width: 154px;
+   height: 34px;
+   border-radius: 4px;
+}
+
+#seller-chat button{
+   margin: 0 10px 0 0;
+   border: 2px solid #f84b2f;
+}
+
+#seller-page button{
+   border: 2px solid #cdcbcb;
+   color: #767676;
+}
+
 @media screen and (max-width:992px) {
    #product-aspects{
       flex-direction: column;
