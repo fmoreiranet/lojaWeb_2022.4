@@ -15,7 +15,7 @@
 }
 
 .white {
-    color: #eee;
+    color: #ffffff;
 }
 
 .dark {
@@ -28,6 +28,10 @@
 
 .gray-dark{
     color: #767676;
+}
+
+.bg-light-orange{
+   background-color: #ffeee8;
 }
 
 .bg-gray{

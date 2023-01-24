@@ -15,7 +15,7 @@
     <!-- <link rel="stylesheet" href="/css/default.css"> -->
     <link rel="stylesheet" href="../css/colors.css">
     <link rel="stylesheet" href="../css/fonts.css">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style.css">  
     <link rel="stylesheet" href="../css/product-page.css">
     <!-- JavaScript -->
     <script src="/libs/js/bootstrap.min.js"></script>
@@ -81,7 +81,7 @@
         </div>
 
         <div id="product-briefing" class="bg-white container">       
-             <div id="product-aspects" class="d-flex">
+            <div id="product-aspects" class="d-flex">
                 <div id="product-pics" class="d-flex flex-column container">
                 <div id="product-main-pic">
                     <img src="../img/frete-gratis.png" alt="">
@@ -114,63 +114,95 @@
                      </div>
                 </div>
 
-                <div id="product-details" class="d-flex flex-column container">
-                <div id="product-name">
-                <h5>Celular Smartphone Pro X12</h5>
-                </div>
+                <div id="product-details" class="d-flex flex-column">
+                    <div id="product-name">
+                    <h5>Celular Smartphone Pro X12</h5>
+                    </div>
 
-                <div id="product-qualification" class="d-flex align-items-baseline container">
-                <div id="product-stars" class="orange"><span class="border-bottom">5</span> 
-                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                </div>
-                <span class="gray-dark">|</span>
-                <div id="product-avaliations">
-                    <span class="border-bottom">1mil</span>
-                    <span class="gray-dark"> Avaliações</span>
-                </div>
-                <span class="gray-dark">|</span>
-                <div id="products-sold">
-                    2mil <span class="gray-dark"> Vendido</span>
-                </div>
-                <a href="#">
-                    <span class="gray-dark">Denunciar</span>
-                </a>
-                </div>
-
-                <div id="product-price" class="bg-gray orange">
-                <h3>R$9.9999.999,99</h3>
-                </div>
-                
-                <div id="product-mailing" class="d-flex flex-colum container">
-                    <div id="product-mailing-options" class="d-flex">
-                        <div id="product-mailing-free" class="m-4 gray-dark">
-                            Frete
+                    <div class="d-flex justify-content-between">
+                        <div id="product-qualification" class="d-flex align-items-baseline  container">
+                        <div id="product-stars" class="orange"><span class="border-bottom">5</span>
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
                         </div>
-                        <div id="product-mailing-cupom" class="m-4">
-                            <div>
-                                <i class="fa-solid fa-truck-fast green-truck"></i>
-                                Frete Grátis com cupom
-                            </div>
-                            <div class="mx-lg-3 gray-dark">Para compras acima de R$39,00
-                            </div>
-                            <div id="product-mailing-to" class="d-flex">
-                                <div>
-                                    <i class="fa-solid fa-truck-fast"></i>
-                                    Frete para
-                                </div>
-                                <div class="mx-5">
-                                    12345-678, São Paulo, São Paulo
-                                    <i class="fa-sharp fa-solid fa-angle-down"></i>
-                                </div>
-                            </div>
+                        <span class="gray-dark">|</span>
+                        <div id="product-avaliations">
+                            <span class="border-bottom">1mil</span>
+                            <span class="gray-dark"> Avaliações</span>
+                        </div>
+                        <span class="gray-dark">|</span>
+                        <div id="products-sold">
+                            2mil <span class="gray-dark"> Vendido</span>
                         </div>
                     </div>
+                    <a href="#">
+                        <span class="gray-dark">Denunciar</span>
+                    </a>
+                    </div>
+
+                    <div id="product-price" class="bg-gray orange">
+                    <h3>R$9.9999.999,99</h3>
+                    </div>
+                    
+                    <div id="product-mailing" class="d-flex flex-colum">                        
+                        <div id="product-mailing-options" class="d-flex container">
+                            <div id="product-mailing-free" class="m-4 gray-dark">
+                                Frete
+                            </div>
+                            <div id="product-mailing-cupom" class="m-4">
+                                <div>
+                                    <i class="fa-solid fa-truck-fast green-truck"></i>
+                                    Frete Grátis com cupom
+                                </div>
+                                <div class="mx-lg-3 gray-dark">Para compras acima de R$39,00
+                                </div>
+                                <div id="product-mailing-to" class="d-flex">
+                                    <div>
+                                        <i class="fa-solid fa-truck-fast"></i>
+                                        Frete para
+                                    </div>
+                                    <div class="mx-5">
+                                        12345-678, São Paulo, São Paulo
+                                        <i class="fa-sharp fa-solid fa-angle-down"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                    <div id="product-quantity" class="d-flex justify-content-start align-items-center">
+                        <div class="mx-4 gray-dark">
+                            Quantidade
+                        </div>
+                        <div id="product-quantity-select" class="d-flex justify-content-center align-items-center">
+                            <button class="bg-white gray-dark">-</button>
+                            <input type="text" name="" id="" placeholder="1">
+                            <button  class="bg-white gray-dark">+</button>
+                        </div>
+                    </div>
+
+                    <div id="product-buttons" class="d-flex justify-content-start align-items-center
+                    ">
+                        <div id="product-button-add">
+                            <button class="bg-light-orange orange-dark">
+                                <i class="fa-sharp fa-solid fa-cart-plus"></i>
+                                Adicionar ao carrinho</button>
+                        </div>
+
+                        <div id="product-button-buy">
+                            <button class="bg-orange white">Comprar Agora</button>
+                        </div>
+                    </div>
+
+                    <div id="product-safety" class="d-flex justify-content-around align-items-center">
+                        <div>
+                            <i class="fa-solid fa-shield orange"></i>
+                            Garantia Shopee</div>
+                        <div class="gray-dark">Receba extamente o que pediu ou devolvesmo seu dinheiro</div>
+                    </div>
                 </div>
-                </div>
-             </div>
+            </div>
         </div>
-
-
     </section>
 </main>
 </body>
