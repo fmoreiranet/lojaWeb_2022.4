@@ -7,6 +7,8 @@
 
 #product-breadcrumbs{
    font-size: 12px;
+   padding-top: 10px;
+   margin-left: 36px;
 }
 
 #product-breadcrumbs a{
@@ -186,6 +188,16 @@
 #seller-page button{
    border: 2px solid #cdcbcb;
    color: #767676;
+}
+
+#seller-categories-first-row  div{
+   width: 80%;
+   margin: 0 20px;
+}
+
+#seller-categories-second-row  div{
+   width: 80%;
+   margin: 0 20px;
 }
 
 @media screen and (max-width:992px) {

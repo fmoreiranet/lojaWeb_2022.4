@@ -20,6 +20,7 @@
     <!-- JavaScript -->
     <script src="/libs/js/bootstrap.min.js"></script>
 </head>
+
 <header class="bg-orange white" class="redesocial">
     <nav class="container">
         <div class="d-flex flex-mobile-row justify-content-between align-items-baseline header-space-y">
@@ -31,14 +32,16 @@
                     alt="Clique para acessar rede social do Instagram">
             </div>
             <div class="area-usuario text-end">
-                <a href="">Cadastrar</a> | <a href="">Entrar</a>
+                <a href="">Cadastrar</a> | <a href="../pages/login.html">Entrar</a>
             </div>
         </div>
         <div class="d-flex justify-content-between">
             <div class="text-start flex-mobile-row justify-content-between">
                 <div class="display-mobile-hide">
-                    <img src="../img/logo2.svg" alt="Logo marca da loja" class="icon-logo">
-                </div>
+                    <a href="../pages/index.html">
+                        <img src="../img/logo2.svg" alt="Logo marca da loja" class="icon-logo">
+                                        </div>
+                    </a>
 
                 <div class="text-start display-mobile-show">
                     <img src="../img/logo2.svg" alt="Logo marca da loja" class="icon-logo">
@@ -237,14 +240,33 @@
         </div>
 
         <div id="seller-categories" class="d-flex flex-column align-items-center justify-content-around">
-            <div id="seller-categories-first-row">
-                <span class="gray-dark">Avaliações </span><span class="orange-dark"> 3mil</span>
-                <span class="gray-dark">Taxa De Resposta Do Chat</span> </span><span class="orange-dark"> 84%</span>
-                <span class="gray-dark">Loja Shopee Desde </span><span class="orange-dark"> 17 meses atrás</span>
+            <div id="seller-categories-first-row" class="d-flex justify-content-between align-items-baseline">
+                <div>
+                    <span class="gray-dark">Avaliações </span><span class="orange-dark"> 3mil</span>
+                </div>
+                <div>
+                    <span class="gray-dark">Taxa De Resposta Do Chat</span> 
+                    <span class="orange-dark"> 84%</span>
+                </div>
+                <div>
+                    <span class="gray-dark">Loja Shopee Desde </span>
+                    <span class="orange-dark"> 17 meses atrás</span>
+                </div>
             </div>
 
-            <div id="seller-categories-second-row">
-                <span class="gray-dark">Avaliações </span><span class="orange-dark"> 3mil</span>
+            <div id="seller-categories-second-row" class="d-flex justify-content-between align-items-baseline">
+                <div>
+                    <span class="gray-dark">Produtos </span>
+                    <span class="orange-dark"> 367</span>
+                </div>
+                <div>
+                    <span class="gray-dark">Geralmente Responde O Chat Em </span>
+                    <span class="orange-dark"> poucas horas</span>
+                </div>
+                <div>
+                    <span class="gray-dark">Seguidor</span>
+                    <span class="orange-dark"> 801</span>
+                </div>
             </div>
         </div>
     </section>

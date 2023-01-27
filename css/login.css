@@ -48,8 +48,23 @@ logo{
 
 #form-data{
    background-color: white;
-   width: 450px;
-   height: 250px;
+   width: 400px;
+   min-height: 482px;
+   background-color: #fff;
+   box-shadow: 0 3px 10px 0 rgb(0 0 0 / 14%);
+   border-radius: 4px;
+}
+
+#form-data h4{
+   width: 100%;
+   padding: 22px 30px;
+}
+
+#form-data input{
+   max-width: 300px;
+   width: 100%;
+   padding: 8px;
+   margin: 10px;
 }
 
 #input-email{
@@ -63,3 +78,13 @@ logo{
    padding: 8px;
    margin-bottom: 16px;
 }
+
+#form-data button{
+   max-width: 300px;
+   width: 100%;
+   padding: 8px;
+   margin: 10px;
+   background-color:#ff6a34a0;
+   border-radius: 2px;
+   border: none;}
+
